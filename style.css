@@ -369,7 +369,7 @@ html {
 @media only screen and (max-width:490px) {
     #about_container {
         height: 580px;
-        width: 310px;
+        width: 330px;
     }
     #second {
         margin-top: 160px;

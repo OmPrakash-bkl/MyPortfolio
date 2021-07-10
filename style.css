@@ -268,140 +268,111 @@ html {
 
 /* Main Section Start */
 
-#about_container {
-    height: 250px;
-    width: 1100px;
+#main_section {
+    height: 320px;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 30px rgb(206, 206, 206);
-    box-sizing: border-box;
+    padding: 20px 0px;
+    margin: 50px auto 0px auto;
+    box-shadow: 0px 0px 30px gainsboro;
+    border-radius: 10px;
 }
 #first {
     flex: 50%;
-    height: 250px;
-   
-}
-#first h1 {
-    float: left;
-    font-size: 35px;
-    margin: 10px 100px 10px 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: rgb(12, 12, 12, 0.8);
-}
-#first p {
+    height: 260px;
     
-    float: left;
-   font-size: 20px;
-   text-align: left;
-   margin-left: 20px;
-   color: rgb(12, 12, 12, 0.8);
-}
-#first a {
-    color: green;
-    text-decoration: none;
 }
 #second {
     flex: 50%;
-    height: 250px;
-   box-sizing: border-box;
+    height: 280px;
+   
 }
-#second h1 {
-    float: left;
-    font-size: 35px;
-    margin: 10px 200px 10px 20px;
-    color: rgb(12, 12, 12, 0.8);
-    font-family:Arial, Helvetica, sans-serif;
+#table_container {
+    height: 220px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
-
-
-#second table {
-    padding: 10px;
+#table_container h3 {
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 20px;
 }
-#second td {
-    padding-right: 50px;
-    padding: 5px 0px;
+#table_container p {
+    color:rgba(90, 90, 90, 0.8);
+    
 }
-#second td:nth-child(even) {
-    color: rgb(12, 12, 12, 0.8);
-}
-#second td:nth-child(odd) {
-    color: rgb(12, 12, 12, 0.8);
+#table1_rowone, #table1_rowtwo, #table1_rowthree, #table1_rowfour, #table1_rowfive {
+    flex: 100%;
+  
 }
 
-@media only screen and (max-width:1160px) {
-    #first, #second {
-        flex: 100%;
+#second h1, #first h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, 0.8);
+    margin: 10px 0px 10px 20px;
+    
+}
+#second p, #second h3 {
+    display: inline-block;
+}
+#first p, #second #table_container {
+    margin: 10px 0px 10px 20px;
+}
+#first p {
+    font-size: 22px;
+    color: rgba(90, 90, 90, 0.8);
+}
+#first p a {
+    text-decoration: none;
+    color: green;
+}
+
+@media only screen and (max-width:1300px){
+    #second p, #second h3 {
+        display: block;
     }
-    #about_container {
-        height: 800px;
-        width: 800px;
-    }
-    #about_container table {
-        float: left;
+}
+@media only screen and (max-width:963px){
+   #first, #second {
+       flex: 100%;
+       height: 280px;
+   }
+   #main_section {
+       height: 570px;
+   }
+   #table_container {
+       width: 90%;
+   }
+}
+@media only screen and (max-width:610px){
+
+    #main_section {
+        height: 900px;
     }
     #first {
-        margin-bottom: -100px;
-    }
-}
-@media only screen and (max-width:850px) {
-    #about_container {
-        height: 850px;
-        width: 500px;
-    }
-    #second h1 {
-        margin-right: 20px;
-    }
-}
-@media only screen and (max-width:540px) {
-    #about_container {
-        height: 820px;
-        width: 380px;
+        height: 350px;
     }
     #second {
-        margin-top: 100px;
-    }
-}
-@media only screen and (max-width:490px) {
-    #about_container {
-        height: 800px;
-        width: 330px;
+        flex: 100%;
+        height: 360px;
     }
     #second {
-        margin-top: 20px;
+        margin-top: 80px;
     }
-    #second td {
-        padding-right: 00px;
+ }
+
+ @media only screen and (max-width:400px){
+    #main_section {
+        height: 900px;
     }
-    #second h1 {
-        font-size: 25px;
-        margin-right: 20px;
+    #first {
+        height: 450px;
     }
-    #first h1 {
-        font-size: 25px;
-    }
-    #second td:nth-child(even) {
-        font-size: 15px;
-    }
-    #first p {
-        font-size: 15px;
-    }
-}
-@media only screen and (max-width:330px) {
-    #about_container {
-        height: 840px;
-        width: 300px;
-        padding: 5px;
-    }
-    #second {
-        margin-top: 100px;
-    }
-    #second table {
-        padding: 0px;
-    }
-}
+
+ }
 /* Main Section End */

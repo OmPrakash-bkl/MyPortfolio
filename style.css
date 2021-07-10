@@ -232,6 +232,10 @@ html {
     #part1 button a, #part2 button a {
         font-size: 20px;
     }
+    #part1 button:hover, #part2 button:hover {
+        width: 200px;
+        transition: 0.4s;
+    }
     
 }
 
@@ -368,11 +372,20 @@ html {
 
  @media only screen and (max-width:400px){
     #main_section {
-        height: 900px;
+        height: 930px;
     }
     #first {
-        height: 450px;
+        height: 480px;
     }
 
+ }
+
+ @media only screen and (max-width:250px){
+    #main_section {
+        height: 1000px;
+    }
+    #first {
+        height: 500px;
+    }
  }
 /* Main Section End */

@@ -235,4 +235,154 @@ html {
     
 }
 
+#socialicon_section {
+    height: 80px;
+    width: 100%;
+   
+    position: relative;
+    top: -30px;
+}
+#socialicon_section a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+#socialicon_section p {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background-color: gray;
+    border: 0px;
+    border-radius: 50%;
+ 
+   margin: 10px 5px;
+}
+#socialicon_section p:hover {
+    background-color: rgb(146, 146, 146);
+}
+
 /* Image Section Start */
+
+
+
+/* Main Section Start */
+
+#about_container {
+    height: 250px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgb(206, 206, 206);
+    box-sizing: border-box;
+}
+#first {
+    flex: 50%;
+    height: 250px;
+   
+}
+#first h1 {
+    float: left;
+    font-size: 35px;
+    margin: 10px 100px 10px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12, 0.8);
+}
+#first p {
+    
+    float: left;
+   font-size: 20px;
+   text-align: left;
+   margin-left: 20px;
+   color: rgb(12, 12, 12, 0.8);
+}
+#first a {
+    color: green;
+    text-decoration: none;
+}
+#second {
+    flex: 50%;
+    height: 250px;
+   box-sizing: border-box;
+}
+#second h1 {
+    float: left;
+    font-size: 35px;
+    margin: 10px 200px 10px 20px;
+    color: rgb(12, 12, 12, 0.8);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#second table {
+    padding: 10px;
+}
+#second td {
+    padding-right: 50px;
+    padding: 5px 0px;
+}
+#second td:nth-child(even) {
+    color: rgb(12, 12, 12, 0.8);
+}
+#second td:nth-child(odd) {
+    color: rgb(12, 12, 12, 0.8);
+}
+
+@media only screen and (max-width:1160px) {
+    #first, #second {
+        flex: 100%;
+    }
+    #about_container {
+        height: 500px;
+        width: 800px;
+    }
+    #about_container table {
+        float: left;
+    }
+    #first {
+        margin-bottom: -100px;
+    }
+}
+@media only screen and (max-width:850px) {
+    #about_container {
+        height: 550px;
+        width: 500px;
+    }
+    #second h1 {
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width:540px) {
+    #about_container {
+        height: 620px;
+        width: 380px;
+    }
+    #second {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width:490px) {
+    #about_container {
+        height: 580px;
+        width: 310px;
+    }
+    #second {
+        margin-top: 160px;
+    }
+    #second td {
+        padding-right: 00px;
+    }
+    #second h1 {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    #second td:nth-child(even) {
+        font-size: 15px;
+    }
+}
+/* Main Section End */

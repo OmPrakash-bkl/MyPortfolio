@@ -616,15 +616,6 @@ html {
               display: none;
           }
 
-          @media only screen and (max-width:1200px) {
-            #text_container h3 {
-                font-size: 15px;
-            }
-                #text_container h1 {
-                    font-size: 25px;
-                    margin: auto 10px;
-                }
-          }
     @media only screen and (max-width:890px) {
        #gallery_image_container1, #gallery_image_container2, #gallery_image_container3 {
            height: 1600px;
@@ -641,6 +632,20 @@ html {
         height: 800px;
         flex: 100%;
        }
-      
     }
+
+
+    @media only screen and (max-width:400px) {
+        #text_container h3 {
+            font-size: 15px;
+        }
+            #text_container h1 {
+                font-size: 25px;
+                margin-left:25px;
+                margin-right: 25px;
+            }
+      }
+
+
+
 /* Main Section End */

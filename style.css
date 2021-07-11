@@ -632,6 +632,10 @@ html {
         height: 800px;
         flex: 100%;
        }
+        #text_container:hover {
+          color: white;
+          cursor: pointer;
+      }
     }
 
 

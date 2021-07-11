@@ -615,7 +615,12 @@ html {
           #gallery_image_container1, #gallery_image_container2 {
               display: none;
           }
-
+          @media only screen and (max-width:1200px) {
+            #text_container:hover {
+                color: white;
+                cursor: pointer;
+            }
+          }
     @media only screen and (max-width:890px) {
        #gallery_image_container1, #gallery_image_container2, #gallery_image_container3 {
            height: 1600px;

@@ -8,3 +8,8 @@ function shownavbar() {
         document.getElementById("btn").className="fa fa-close";
     }
 }
+
+window.addEventListener("scroll", function() {
+    var scroll = this.document.getElementById('navbar_container');
+    scroll.classList.toggle("active", window.scrollY > 450)
+})

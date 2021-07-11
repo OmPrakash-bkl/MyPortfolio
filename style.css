@@ -347,7 +347,7 @@ html {
        height: 280px;
    }
    #main_section {
-       height: 570px;
+       height: 600px;
    }
    #table_container {
        width: 90%;
@@ -388,4 +388,76 @@ html {
         height: 500px;
     }
  }
+
+#proskil {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 150px auto 20px auto;
+    color: rgb(0, 0, 0, 0.8);
+}
+#skillbar {
+    height: 250px;
+    width: 90%;
+    border: 0px solid gainsboro;
+    box-shadow: 0px 0px 30px gainsboro;
+    border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+}
+
+#skill_container {
+    height: 230px;
+    width: 95%;
+  
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#skill_one {
+    flex: 50%;
+    height: 230px;
+    
+}
+
+#skill_two {
+    flex: 50%;
+    height: 230px;
+    
+}
+
+#disk_a, #disk_b, #disk_c {
+    width: 95%;
+    border-radius: 0px;
+}
+#skill_one p, #skill_two p {
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(0, 151, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#skill_one p:nth-child(even), #skill_two p:nth-child(even) {
+    float: right;
+    margin-right: 25px;
+}
+#skill_one div, #skill_two div {
+    margin: 30px auto;
+}
+
+
+@media only screen and (max-width:963px) {
+    #skill_one, #skill_two {
+        flex: 100%;
+    }
+    #skillbar {
+     height: 480px;
+    }
+    #proskil {
+        margin-top: 50px;
+    }
+}
+
+
+
+
 /* Main Section End */

@@ -60,3 +60,61 @@ switch(value) {
                 break;
 }
 }
+showdetails(1, 1);
+function showdetails(i, j) {
+    var y=i+1;
+    var z=j+1;
+    if(y===4) {
+        y=1;
+       
+    }
+    if(z===4) {
+        z=1;
+    }
+    var x="ref_div"+y;
+    var r="ref_two"+z;
+    switch(x) {
+        case "ref_div1":
+            document.getElementById(x).style.display="block";
+            document.getElementById("ref_div2").style.display="none";
+            document.getElementById("ref_div3").style.display="none";
+            break;
+            case "ref_div2": 
+            document.getElementById("ref_div1").style.display="none";
+            document.getElementById(x).style.display="block";
+            document.getElementById("ref_div3").style.display="none";
+           
+            break;
+            case "ref_div3": 
+            document.getElementById("ref_div1").style.display="none";
+            document.getElementById("ref_div2").style.display="none";
+            document.getElementById(x).style.display="block";
+            break;
+    } 
+    switch(r){
+        case "ref_tow1": 
+            document.getElementById(r).style.display="block";
+            document.getElementById("ref_two2").style.display="none";
+            document.getElementById("ref_two3").style.display="none";
+            break;
+            case "ref_tow2": 
+            document.getElementById(r).style.display="block";
+            document.getElementById("ref_two1").style.display="none";
+            document.getElementById("ref_two3").style.display="none";
+            break;
+            case "ref_tow2": 
+            document.getElementById(r).style.display="block";
+            document.getElementById("ref_two1").style.display="none";
+            document.getElementById("ref_two2").style.display="none";
+            break;
+    }
+  
+}
+var i=0;
+setInterval(function() {
+i++;
+if(i==4) {
+    i=1;
+}
+showdetails(i);
+}, 3000);

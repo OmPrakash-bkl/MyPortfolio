@@ -635,14 +635,14 @@ html {
     }
 
 
-    @media only screen and (max-width:400px) {
+    @media only screen and (max-width:768px) {
         #text_container h3 {
             font-size: 15px;
         }
             #text_container h1 {
                 font-size: 25px;
-                margin-left:25px;
-                margin-right: 25px;
+                margin-left:45px;
+                margin-right: 45px;
             }
       }
 

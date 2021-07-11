@@ -706,7 +706,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 15px 0px 20px 20px;
-    color: rgb(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0, 0.6);
 }
 .paraexp {
     margin: 0px 20px;
@@ -771,5 +771,51 @@ html {
     }
 }
 
+#exphead1 {
+    text-align: center;
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+.expheading1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 15px 0px 0px 20px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.forleftspace {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 20px 20px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.paraexp1 {
+    margin: 10px 20px;
+    color: gray;
+}
+
+@media only screen and (max-width:700px) {
+    .paraexp1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width:440px)  {
+    .paraexp1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width:375px)  {
+    .paraexp1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width:310px)  {
+    .paraexp1 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
 /* Work Experience Section End */
 

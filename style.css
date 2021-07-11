@@ -669,170 +669,97 @@ html {
 /* Work Experience Section Start */
 
 #exphead {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0, 0.8);
     text-align: center;
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 #expcontainer1, #expcontainer2, #expcontainer3 {
     height: 200px;
     width: 90%;
+    border: 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 0px;
-    margin: 20px auto;
+    margin: 30px auto;
     box-shadow: 0px 0px 20px gainsboro;
     border-radius: 10px;
-} 
-
-#expcontainer1 div:nth-child(odd), #expcontainer2 div:nth-child(odd), #expcontainer3 div:nth-child(odd) {
+}
+.leftcon {
     flex: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     height: 200px;
-   
     background-color: rgb(0, 128, 0, 0.8);
-}
-
-#expcontainer1 div:nth-child(odd) p, #expcontainer2 div:nth-child(odd) p, #expcontainer3 div:nth-child(odd) p {
-   color: white;
-   text-align: center;
-   margin: 70px auto 10px auto;
-   font-family: Arial, Helvetica, sans-serif;
-}
-#expcontainer1 div:nth-child(odd) h1, #expcontainer2 div:nth-child(odd) h1, #expcontainer3 div:nth-child(odd) h1 {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 10px auto;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
-#expcontainer1 div:nth-child(even), #expcontainer2 div:nth-child(even), #expcontainer3 div:nth-child(even) {
+}
+.leftcon p {
+    margin: 70px auto 10px auto;
+}
+.rightcon {
     flex: 70%;
-    height: 200px;
-   
-}
-#expcontainer1 div:nth-child(even) p:nth-child(even), #expcontainer2 div:nth-child(even) p:nth-child(even), #expcontainer3 div:nth-child(even) p:nth-child(even) {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(90, 90, 90);
-    margin: 20px 20px 20px 20px;
-}
-.expheading {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(90, 90, 90);
-    margin: 20px 0px 20px 20px;
-    
-}
-#redmar {
-    height: 30px;
-}
-@media only screen and (max-width:1200px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 230px;
-    }
-    #expcontainer1 div:nth-child(odd), #expcontainer2 div:nth-child(odd), #expcontainer3 div:nth-child(odd) {
-        height: 230px;
-    }
-    #expcontainer1 div:nth-child(odd) p, #expcontainer2 div:nth-child(odd) p, #expcontainer3 div:nth-child(odd) p {
-       
-        margin: 85px auto 10px auto;
-      
-     }
-    
-}
-
-@media only screen and (max-width:1490px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 320px;
-        
-    }
-    #expcontainer1 h1, #expcontainer2 h1, #expcontainer3 h1 {
-        height: 320px;
-        margin: 0px 15px;
-    }
-    #expcontainer1 p, #expcontainer2 p, #expcontainer3 p {
-        margin: 0px 15px;
-        font-size: 30px;
-    }
-    #expcontainer1 div:nth-child(odd), #expcontainer2 div:nth-child(odd), #expcontainer3 div:nth-child(odd) {
-        height: 320px;
-    }
-    #expcontainer1 div:nth-child(odd) p, #expcontainer2 div:nth-child(odd) p, #expcontainer3 div:nth-child(odd) p {
-       
-        margin: 120px auto 10px auto;
-      
-     }
-     .expheading {
-         font-size: 100px;
-     }
-    #expcontainer1 div:nth-child(even) h1, #expcontainer2 div:nth-child(even) h1, #expcontainer3 div:nth-child(even) h1 {
-     font-size: 100px;
-       
-    }
-
-}
-
-@media only screen and (max-width:810px) {
-    #expcontainer1 div:nth-child(odd), #expcontainer2 div:nth-child(odd), #expcontainer3 div:nth-child(odd) {
-        flex: 100%;
-        height: 50px;
-    }
-    #expcontainer1 div:nth-child(even), #expcontainer2 div:nth-child(even), #expcontainer3 div:nth-child(even) {
-        flex: 100%;
-     
-    }
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 530px;
-    }
-    #expcontainer1 div:nth-child(odd), #expcontainer2 div:nth-child(odd), #expcontainer3 div:nth-child(odd) {
-       height: 200px;
-    }
-    #expcontainer1 div:nth-child(odd) p, #expcontainer2 div:nth-child(odd) p, #expcontainer3 div:nth-child(odd) p {
-       
-        margin: 55px auto 10px auto;
-      
-     }
-     .expheading {
-        margin: 80px 0px 20px 20px;
-    }
-    #expcontainer1 h1, #expcontainer2 h1, #expcontainer3 h1 {
-        height: 320px;
-        margin: 20px 15px;
-    }
-     
-}
-
-@media only screen and (max-width:660px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 620px;
-    }
-}
-
-@media only screen and (max-width:580px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 700px;
-    }
-}
-@media only screen and (max-width:495px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 900px;
-    }
   
+    height: 200px;
 }
-@media only screen and (max-width:450px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 1000px;
-    }
 
-}
-@media only screen and (max-width:360px) {
-    #expcontainer1, #expcontainer2, #expcontainer3 {
-        height: 1200px;
-    }
 .expheading {
-    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 15px 0px 20px 20px;
+    color: rgb(0, 0, 0, 0.8);
 }
+.paraexp {
+    margin: 0px 20px;
+    color: gray;
+}
+@media only screen and (max-width:1100px) {
+    .leftcon {
+        flex: 100%;
+        height: 150px;
+    }
+    .leftcon p {
+        margin: 40px auto 10px auto;
+    }
+    .rightcon {
+        flex: 100%;
+        height: 330px;
+    }
+    #expcontainer1, #expcontainer2, #expcontainer3  {
+        height: 380px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .rightcon {
+        height: 580px;
+    }
+    .paraexp {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #expcontainer1, #expcontainer2, #expcontainer3  {
+        height: 750px;
+    }
+}
+@media only screen and (max-width:440px)  {
+    #expcontainer1, #expcontainer2, #expcontainer3  {
+        height: 850px;
+    }
+    .rightcon {
+        height: 650px;
+    }
+}
+@media only screen and (max-width:375px)  {
+    #expcontainer1, #expcontainer2, #expcontainer3  {
+        height: 950px;
+    }
+    .rightcon {
+        height: 850px;
+    }
+    .paraexp {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
 
 /* Work Experience Section End */

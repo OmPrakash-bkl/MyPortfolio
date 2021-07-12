@@ -921,7 +921,118 @@ html {
     }
 }
 
-
-
 /* Work Experience Section End */
+
+/* Map Start */
+
+#map_container {
+    height: 700px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    margin: 60px auto;
+    background-image: url('19.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 20px gainsboro;
+}
+#send_container {
+    height: 500px;
+    width: 90%;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px gainsboro;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#send_container h1 {
+    color: rgb(0, 0, 0, 0.8);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mail_container {
+    height: 400px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#sendcon1, #sendcon2 {
+    height: 350px;
+    flex: 50%;
+    margin: 25px auto;
+  
+}
+#sendcon1 h4 {
+color: rgb(0, 0, 0, 0.8);
+margin: 20px 20px;
+font-size: 20px;
+}
+#sendcon1 form {
+    margin: 10px 20px;
+}
+#sendcon1 input {
+    height: 30px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+#sendcon1 textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+#sendcon1 button {
+    background-color: rgba(0, 150, 0, 0.8);
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+#sendcon2 h4 {
+    color: rgb(0, 0, 0, 0.8);
+    margin: 20px 0px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} 
+
+#sendcon2 p {
+    color: gray;
+    margin: 0px 0px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+} 
+@media only screen and (max-width:630px) {
+    #sendcon1 {
+        flex: 100%;
+        margin: 0px auto;
+        height: 400px;
+    }
+    #sendcon2 {
+        flex: 100%;
+        margin: 0px auto;
+        height: 300px;
+    }
+    #map_container {
+        height: 950px;
+    }
+    #send_container {
+        height: 760px;
+    }
+    #mail_container {
+        height: 700px;
+    }
+}
+/* Map End */
+
+
 

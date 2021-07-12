@@ -1032,7 +1032,50 @@ font-size: 20px;
         height: 700px;
     }
 }
+
+#soccon li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 10px 20px 10px;
+    font-size: 20px;
+}
+
+.socconicon1 a, .socconicon2 a, .socconicon3 a, .socconicon4 a {
+   color: gray;
+    text-decoration: none;
+}
+.socconicon1 a:hover {
+    color: blue;
+}
+.socconicon2 a:hover {
+    color: rgb(84, 201, 247);
+}
+.socconicon3 a:hover {
+    color: red;
+}
+.socconicon4 a:hover {
+    color:magenta;
+}
+
 /* Map End */
+
+/* Footer End */
+
+#footer h1 {
+    text-align: center;
+    color: rgb(0, 0, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto 10px auto;
+}
+#footer p {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+#marbottom {
+    margin-bottom: 10px;
+}
+/* Footer End */
 
 
 
